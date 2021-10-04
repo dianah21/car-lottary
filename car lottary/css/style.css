@@ -1,0 +1,288 @@
+body{
+	font-family:'Open Sans', sans-serif;
+	color:#252A34;
+}
+.main_container{
+	display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header{
+	display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo{
+	font-size: 30px;
+  font-weight: 700;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.color{
+	color: #FF2E63;
+}
+.nav{
+  font-size: 14px;
+}
+
+.register_nav{
+  color: #252A34;
+  font-size: 14px;
+  margin-right:30px;
+  font-weight: 700;
+}
+
+.log{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.login{
+  color: #FF2E63;
+}
+
+.register{
+color: #ffff;
+background-color: #FF2E63;
+border-radius: 5px;
+padding: 10px 20px;
+}
+
+.log{
+  margin-right: 30px;
+}
+
+.body{
+  margin-top: 26px;
+}
+.first{
+  display: flex;
+}
+
+.text{
+  max-width: 30%;
+}
+.left_text{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Rajdhani', sans-serif;
+  margin-top: 95px;
+}
+.button_enter{
+	background-color: #346CD9;
+   padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 60px;
+  max-width: 120px;
+  font-weight: 600;
+}
+
+.car_ellipse{
+  position: relative;
+  display: inline-flex;
+  text-align: center;
+   flex-wrap: wrap;
+}
+.car_ellipse img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ellipse{
+  margin-left: 500px;
+  margin-top: 26px;
+}
+.auto{
+  margin-top: 100px;
+  margin-left: 240px;
+}
+
+
+
+.second{
+  margin-top: 200px;
+}
+.second_text{
+	font-family: 'Rajdhani', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-left: 55px;
+}
+.cards_first{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.cars{
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.mark{
+  font-family: 'Rajdhani', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.price{
+  color: #FF2E63; 
+  font-family: 'Rajdhani', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.old_price{
+  font-family: 'Rajdhani', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #999999;
+  text-decoration-line: line-through;
+}
+.tickets{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 20px;
+}
+.third_text{
+	font-family: 'Rajdhani', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 39px;
+  margin-left: 20px;
+}
+
+
+
+
+.vectors{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   flex-wrap: wrap;
+  
+}
+.vector{
+text-align: center;
+max-width: 250%;
+font-weight: 400;
+}
+
+.text_vector{
+  margin-top: 30px;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 250px;
+}
+.bold{
+  font-weight: 700;
+}
+
+
+
+.third{
+  background: rgba(52, 108, 217, 0.12);
+  display: flex;
+  margin-top: 100px;
+}
+.fourth_text{
+	font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+max-width: 400px;
+margin-top: 78px;
+text-align: center;
+margin-left: 100px;
+}
+.quote{
+position: absolute;
+text-align: center;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+text-transform: uppercase;
+margin-left: 200px;
+margin-top: 20px;
+}
+
+.men{
+	max-width: 550px;
+	margin-left: 200px;
+}
+
+.ellipsies{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 60px;
+  margin-top: 60px;
+  margin-left: 270px;
+
+}
+
+.fourth{
+ margin-top: 100px;
+}
+.fifth_text{
+	font-family: 'Rajdhani', sans-serif;
+font-size: 36px;
+  font-weight: 700;
+  margin-left: 55px;
+}
+.cards_second{
+display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.date{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+margin-left: 20px;
+}
+.footer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 125px;
+    background: #346CD9;
+    color: #FFFFFF;
+    max-height: 70px;
+    width: 100%;
+    padding: 16px 0px 16px 55px;
+
+}
+
+.logo_footer {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.redact_nav_footer {
+    color: #FFFFFF;
+    margin-right: 30px;
+    font-weight: 600;
+}
